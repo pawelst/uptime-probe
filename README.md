@@ -4,7 +4,7 @@ Public Linux binaries and installer for API Uptime Monitoring. The application a
 
 ## Install
 
-The download command becomes available after the first published release.
+**Use version 0.3.1 or later.** Version 0.3.0 could permit AWS IPv6 metadata addresses when covered by a private-network allowlist. Version 0.3.1 blocks the entire AWS host-local service prefix `fd00:ec2::/32` regardless of the allowlist. Re-run the installer to upgrade an existing worker; omit `--config` to preserve its installed configuration.
 
 Requires Linux amd64 or arm64, a running systemd manager, curl, ca-certificates and sha256sum. No Go compiler, Docker, inbound port or GitHub account is required.
 
